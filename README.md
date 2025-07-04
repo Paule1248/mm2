@@ -96,10 +96,10 @@ Set the crate name exactly as listed below:
 
 Use Discord webhooks to get notifications when crates are opened or when you pull rare items like Godly or Chroma.
 
-| Key       | Description                                                                 |
-|-----------|-----------------------------------------------------------------------------|
-| `URL`     | Your Discord webhook URL. Sends updates when crates are opened.            |
-| `UserID`  | Your Roblox User ID. Sends notifications only for Godly or Chroma pulls.    |
+| Key       | Description                                                                |
+|-----------|----------------------------------------------------------------------------|
+| `URL`     | Your Discord webhook URL. Sends updates when crates are opened.           |
+| `UserID`  | Your Roblox User ID. You get notified (pinged) when you pull Godly or Chroma items. |
 
 #### Example
 
@@ -108,8 +108,8 @@ Use Discord webhooks to get notifications when crates are opened or when you pul
     ["URL"] = "https://discord.com/api/webhooks/your_webhook_url_here",
     ["UserID"] = "1234567890",
 },
-
----
+```
+--
 
 ### ⚙️ Other Settings
 
