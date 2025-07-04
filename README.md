@@ -20,9 +20,14 @@ No UI, just pure performance — configured through code and optimized for **low
 
 1. Open Roblox and join **Murder Mystery 2**
 2. Open your executor (e.g. Synapse X, Fluxus, KRNL)
-3. Copy the script from [this link](https://raw.githubusercontent.com/Paule1248/mm2/refs/heads/main/script.lua)
+3. Copy the script from the Script Example
 4. Customize your config at the top
 5. Execute it — done!
+
+
+## 🖼️ UI Screenshot
+
+![Script UI](images/ui.png)
 
 ## 📁 Script Example
 
