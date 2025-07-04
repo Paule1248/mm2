@@ -24,7 +24,7 @@ No UI, just pure performance — configured through code and optimized for **low
 4. Customize your config at the top
 5. Execute it — done!
 
-##📁 Script Example
+## 📁 Script Example
 
 Simply paste the full script into your executor. You can adjust the config at the top:
 
