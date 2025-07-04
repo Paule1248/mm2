@@ -1,6 +1,6 @@
 # MM2 Coin Farmer Script
 
-A simple but powerful **coin farming script** for **Murder Mystery 2** (Roblox).  
+A simple but powerful **coin farming script** for **MM2** .  
 No UI, just pure performance — configured through code and optimized for **low CPU usage**.
 
 ---
