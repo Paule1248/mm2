@@ -61,7 +61,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Paule1248/mm2/refs/he
 
 ## 🖥️CPU Usage
 Extremely low CPU consumption is a key feature of this script:
-![Script usage](images/cpu_usage.png)
+![Script usage](images/cpu-usage.png)
 
 
 ## 📘 Configuration Docs
