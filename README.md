@@ -109,7 +109,6 @@ Use Discord webhooks to get notifications when crates are opened or when you pul
     ["UserID"] = "1234567890",
 },
 ```
---
 
 ### ⚙️ Other Settings
 
