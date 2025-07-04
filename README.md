@@ -63,6 +63,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Paule1248/mm2/refs/he
 Extremely low CPU consumption is a key feature of this script:
 ![Script usage](images/cpu-usage.png)
 
+> **Note:** CPU: AMD Ryzen 5 5600, Memory: 64GB (I used Mem Reduct to reduce memory usage), GPU: GTX 1660 Ti
+
 
 ## 📘 Configuration Docs
 
