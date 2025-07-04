@@ -1,24 +1,30 @@
 # MM2 Coin Farmer Script
 
-A simple but powerful **coin farming script** for **Murder Mystery 2**.
-
-This script runs entirely without a UI — just configure the settings in the script, execute it, and let it do the work.  
-It’s designed to use **very little CPU**, making it perfect for long farming sessions or running multiple accounts.
+A simple but powerful **coin farming script** for **Murder Mystery 2** (Roblox).  
+No UI, just pure performance — configured through code and optimized for **low CPU usage**.
 
 ---
 
 ## 🔧 Features
 
-- ✅ Fully automatic coin farming
+- ✅ Automatic coin farming
 - 💤 Built-in Anti-AFK
-- 🧠 Smart, configurable behavior
-- ♻️ Auto-rejoin support
-- 💾 Super low CPU usage (perfect for background farming)
-- 🛠️ No UI — fully config-based for performance
+- ⚙️ Fully configurable behavior
+- 🔁 Auto-rejoin after rounds
+- 💾 Extremely low CPU usage
+- 🛠️ No GUI — runs fully through config
 
 ---
 
-## ⚙️ Configuration Example
+## 🚀 How to Use
+
+1. Open Roblox and join **Murder Mystery 2**
+2. Open your executor (e.g. Synapse X, Fluxus, KRNL)
+3. Copy the script from [this link](https://raw.githubusercontent.com/Paule1248/mm2/refs/heads/main/script.lua)
+4. Customize your config at the top
+5. Execute it — done!
+
+##📁 Script Example
 
 Simply paste the full script into your executor. You can adjust the config at the top:
 
@@ -46,3 +52,72 @@ getgenv().Config = {
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Paule1248/mm2/refs/heads/main/script.lua"))()
+```
+
+
+
+## 📘 Configuration Docs
+
+### 🧠 Coin Farm Mode
+
+Select how the bot collects coins:
+
+| Mode | Description                                               | Recommended Use                   |
+|------|-----------------------------------------------------------|-----------------------------------|
+| `1`  | Makes you go under the map so no one will ever see you    | Single account / low risk farming |
+| `2`  | Fast & efficient, but more obvious behavior               | Alt accounts / fast farming       |
+
+---
+
+### 🎁 Auto Open → `Crate`
+
+If auto open is enabled, the script will open crates using collected coins.  
+Set the crate name exactly as listed below:
+
+**Available crate names:**
+
+- `MysteryBox1`
+- `MysteryBox2`
+- `KnifeBox1`
+- `KnifeBox2`
+- `KnifeBox3`
+- `KnifeBox4`
+- `KnifeBox5`
+- `GunBox1`
+- `GunBox2`
+- `GunBox3`
+
+> Make sure `["Auto Open"]["Enabled"] = true` to use this feature.
+
+---
+
+### 🌐 Webhook Settings
+
+Send stats or logs to a Discord webhook (optional):
+
+- `URL`: Your Discord webhook URL
+- `UserID`: Roblox user ID for identifying which account sent the data
+
+---
+
+### ⚙️ Other Settings
+
+| Option                   | Description                              |
+|--------------------------|------------------------------------------|
+| `Auto Prestige`          | Automatically prestige when possible     |
+| `Auto Restart on Update` | Reload script if it updates (optional)   |
+| `Auto Craft`             | Not implemented yet (reserved for future)|
+
+---
+
+## ⚠️ Disclaimer
+
+This script is for **educational purposes only**.  
+Using scripts in Roblox can violate their Terms of Service and may result in a ban.  
+You use this software **at your own risk**.
+
+---
+
+## 📄 License
+
+MIT License – see [`LICENSE`](./LICENSE) for more information.
