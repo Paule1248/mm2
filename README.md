@@ -119,6 +119,7 @@ Use Discord webhooks to get notifications when crates are opened or when you pul
 ["Webhook"] = {
     ["URL"] = "https://discord.com/api/webhooks/your_webhook_url_here",
     ["UserID"] = "1234567890",
+    ["Only Good Webhook"] = false.
 },
 ```
 
