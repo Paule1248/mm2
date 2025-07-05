@@ -47,6 +47,7 @@ getgenv().Config = {
 	["Webhook"] = {
 		["URL"] = "",
 		["UserID"] = "",
+		["Only Good Webhook"] = false,
 	},
 
 	["Other"] = {
@@ -109,7 +110,8 @@ Use Discord webhooks to get notifications when crates are opened or when you pul
 | Key       | Description                                                                |
 |-----------|----------------------------------------------------------------------------|
 | `URL`     | Your Discord webhook URL. Sends updates when crates are opened.           |
-| `UserID`  | Your Roblox User ID. You get notified (pinged) when you pull Godly or Chroma items. |
+| `UserID`  | Your Roblox User ID. You get notified (pinged) when you pull Godly or Chroma item. |
+| `Only Good Webhook`| Will only send a Webhook when you pull a Godly or Chroma item. |
 
 #### Example
 
