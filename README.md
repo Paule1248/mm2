@@ -19,7 +19,7 @@ No UI, just pure performance — configured through code and optimized for **low
 ## 🚀 How to Use
 
 1. Open Roblox and join **Murder Mystery 2**
-2. Open your executor (e.g. Synapse X, Fluxus, KRNL)
+2. Open your executor (e.g. AWP, Delta, KRNL)
 3. Copy the script from the Script Example
 4. Customize your config at the top
 5. Execute it — done!
