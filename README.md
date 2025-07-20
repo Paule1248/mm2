@@ -55,6 +55,9 @@ getgenv().Config = {
 		["Auto Restart on Update"] = false,
 		["Auto Craft"] = false, -- not implemented yet
 	},
+	["Event"] = {
+        	["Auto Do Battle Pass"] = true,
+    	}
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Paule1248/mm2/refs/heads/main/script.lua"))()
